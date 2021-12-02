@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1081799867324",
+    "project_id": "cs225-middleware",
+    "storage_bucket": "cs225-middleware.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081799867324:android:0afe46d5646d24df6e89b9",
+        "android_client_info": {
+          "package_name": "com.arun.cs225.sixfeettracing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081799867324-hu3gde5mtr4nmuianqec3aik7n6v3p85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLmp9eToKqfi2yQ1GDAeLeFMim5IGp7GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081799867324-hu3gde5mtr4nmuianqec3aik7n6v3p85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
