@@ -18,6 +18,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -56,7 +57,7 @@ public class TrackerActivity extends AppCompatActivity {
 
 
     //private static final String BASE_URL = "http://34.220.168.170:8080";
-    public static final String BASE_URL = "https://192.168.0.133:8080";
+    public static final String BASE_URL = "https://192.168.1.175:8080";
     public static final String UPLOAD_API_URL = "/api/upload";
     public static final String UPDATE_USER_API_URL = "/api/user";
 
@@ -504,6 +505,11 @@ public class TrackerActivity extends AppCompatActivity {
         notification.setStyle(new NotificationCompat.BigTextStyle()
                 .bigText(remoteMessage.get("message")));
         notificationManager.notify(100,notification.build());
+    }
+
+    public void loadStats(View view){
+        Intent intent = new Intent(this, StatsActivity.class);
+        startActivity(intent);
     }
     @Override
     protected void onDestroy() {
